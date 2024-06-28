@@ -1,0 +1,19 @@
+{
+  "name": "thia",
+  "version": "1.0.0",
+  "description": "SuperAPi",
+  "main": "index.js",
+  "scripts": {
+    "test": "tokony mety",
+    "start": "nodemon index.js"
+  },
+  "author": "thia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "sequelize": "^6.37.3"
+  }
+}
