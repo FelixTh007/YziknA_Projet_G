@@ -31,7 +31,7 @@ require('./!@#--D!Dos/---Here__IS/nothing!/Az3/routes/inscription')(app)        
 require('./!@#--D!Dos/---Here__IS/nothing!/Az3/routes/modification')(app)      //       '/TySyNday/modification/{{id}}'   
 require('./!@#--D!Dos/---Here__IS/nothing!/Az3/routes/pub_For_acceuil')(app)  //        '/TySyNday/pubAcceuil/'
 require('./!@#--D!Dos/---Here__IS/nothing!/Az3/routes/message')(app)         //         '/TySyNday/message/(Envoie || Recevoir)'
-
+require('./!@#--D!Dos/---Here__IS/nothing!/Az3/routes/DonneesPersonne')(app)//          ' --- admin only ---- '
 
 
 app.listen(port,() => console.log(`port : => ${port}  \n http://localhost:${port}/`))
