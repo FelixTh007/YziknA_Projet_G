@@ -1,1 +1,73 @@
 @import url("bootstrap.min.css");
+
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.contain
+{
+    width: 70%;
+    height: 85vh;
+    overflow: hidden;
+}
+.photo
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 5%;
+}
+
+.profil
+{
+    height: 100vh;
+    position: relative;
+}
+.description
+{
+    height: 60vh;
+    margin-top: 2vh;   
+    position: relative;
+    border: 1px solid black; 
+    border-radius: 20px;
+    position: relative;
+}
+.table_2
+{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 50%;
+}
+.table_2 tr td
+{
+    padding: 2%;
+    font-weight: bold;
+}
+
+.table_1
+{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.table_3
+{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+    tr  .border-here
+{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.bout 
+{
+    position: absolute;
+    bottom: 6%;
+    right: 6%;
+}
